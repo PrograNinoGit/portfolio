@@ -1,4 +1,4 @@
-# 👋 Hi, ich bin Nino 
+# 👋 Hi, ich bin Nino
 
 Willkommen in meinem Portfolio! Hier findest du meine Projekte, Skills und etwas über mich.
 
@@ -18,15 +18,11 @@ Willkommen in meinem Portfolio! Hier findest du meine Projekte, Skills und etwas
 - CSS3
 - JavaScript
 
-## 🚀 Lokal ausführen
-
-```bash
-git clone https://github.com/PrograNinoGit/portfolio.git
-cd portfolio
-```
-
-Danach einfach `index.html` im Browser öffnen.
-
 ## 📬 Kontakt
 
 - GitHub: [@PrograNinoGit](https://github.com/PrograNinoGit)
+
+## ⚖️ Rechtliches
+
+© 2026 Nino. Alle Rechte vorbehalten.
+Dieses Portfolio dient ausschließlich zur Ansicht. Kopieren, Weiterverwenden oder Veröffentlichen des Codes, des Designs und der Inhalte ist ohne meine ausdrückliche Zustimmung nicht gestattet.
