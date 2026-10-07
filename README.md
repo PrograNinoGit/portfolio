@@ -1,4 +1,4 @@
-# 👋 Hi, ich bin Nino Maurer
+# 👋 Hi, ich bin Nino 
 
 Willkommen in meinem Portfolio! Hier findest du meine Projekte, Skills und etwas über mich.
 
