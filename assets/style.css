@@ -16,4 +16,5 @@ h1{font-size:clamp(3rem,8vw,7rem);line-height:.98;letter-spacing:-.05em;margin-b
   box-shadow:0 0 0 1px #586057;   /* feine Kontur, damit das braune Rund auf dem dunklen Grund nicht verschwindet */
   transition:transform .3s ease;
 }
-.project:hover .project-number img{transform:scale(1.06)}
+.project:hover .project-number img{transform:scale(1.06)}.logo{display:flex;align-items:center;gap:12px}
+.logo img{width:34px;height:34px;display:block}
