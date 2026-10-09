@@ -8,4 +8,12 @@ h1{font-size:clamp(3rem,8vw,7rem);line-height:.98;letter-spacing:-.05em;margin-b
 .project{background:var(--card);border:1px solid var(--line);padding:34px;min-height:440px;display:flex;flex-direction:column;justify-content:space-between}.project:hover{border-color:#586057}.project-number{font-size:4rem;font-weight:800;color:#3b423c;line-height:1}.project-content{margin-top:50px}.tag{font-size:.72rem;letter-spacing:.16em;color:var(--accent);font-weight:700;margin-bottom:10px}.project h3{font-size:2rem;margin-bottom:18px}.project p:not(.tag){color:var(--muted);margin-bottom:22px}.tech{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}.tech span{border:1px solid var(--line);padding:5px 9px;border-radius:20px;font-size:.8rem;color:#d9ded9}.text-link{font-weight:700;color:var(--accent)}
 .light{background:#121512;max-width:none;padding-left:7%;padding-right:7%}.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}.skills div{background:var(--bg);padding:28px}.skills strong{display:block;font-size:1.25rem;margin-bottom:5px}.skills span{color:var(--muted);font-size:.9rem}
 .about{max-width:1000px}.about p:last-child{color:var(--muted);font-size:1.15rem;max-width:780px}.contact{text-align:center;padding:110px 7%;background:#1a211b}.contact h2{font-size:clamp(2.2rem,5vw,4.5rem);margin-bottom:18px}.contact p:not(.eyebrow){color:var(--muted);margin-bottom:30px}footer{padding:25px 7%;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:var(--muted);font-size:.85rem}
-@media(max-width:800px){.nav{padding:0 5%}.nav nav{gap:14px;font-size:.8rem}.hero,.section{padding-left:5%;padding-right:5%}.projects{grid-template-columns:1fr}.skills{grid-template-columns:1fr}.project{min-height:auto}.project-content{margin-top:30px}}
+@media(max-width:800px){.nav{padding:0 5%}.nav nav{gap:14px;font-size:.8rem}.hero,.section{padding-left:5%;padding-right:5%}.projects{grid-template-columns:1fr}.skills{grid-template-columns:1fr}.project{min-height:auto}.project-content{margin-top:30px}}.project-number img{
+  display:block;
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  box-shadow:0 0 0 1px #586057;   /* feine Kontur, damit das braune Rund auf dem dunklen Grund nicht verschwindet */
+  transition:transform .3s ease;
+}
+.project:hover .project-number img{transform:scale(1.06)}
